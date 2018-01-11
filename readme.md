@@ -53,7 +53,7 @@ One player is attacker, one is defender. These never change over the course of a
 
 6 parallel lanes are set up between attacker and defender. These are completely independent of one another
 
-Where the lane decks go in the below diagram, deal thirteen face down cards in each space, then flip the right 3 decks face up. These are the lane decks
+Where the lane decks go in the below diagram, deal thirteen face down cards in each space, then flip the right 3 decks face up. These are the lane decks. You are not allowed to inspect the face up lane decks
 
 Enough space for another deck should be left behind (defender's perspective) the decks in each lane, as this is the location of the 'lane discard pile'.
 
