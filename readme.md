@@ -53,16 +53,14 @@ One player is attacker, one is defender. These never change over the course of a
 
 6 parallel lanes are set up between attacker and defender. These are completely independent of one another
 
-Where the lane decks go in the below diagram, deal thirteen face down cards in each lane stack, then flip the right 3 stacks face up
-
-These decks are referred to as 'lane decks'.
+Where the lane decks go in the below diagram, deal thirteen face down cards in each space, then flip the right 3 decks face up. These are the lane decks
 
 Enough space for another deck should be left behind (defender's perspective) the decks in each lane, as this is the location of the 'lane discard pile'.
 
 
 The attacker conceptually has two unique spaces, the ‘attacker deck’ and the ‘attacker discard pile’. Attempting to draw from an empty attacker deck shuffles in the attacker discard pile
 
-If the competitive rules are being followed, the BINMAT app (explained in section 3) may now be placed equidistant from the attacker and defender at one side of the play area.
+If the competitive rules are being followed, the BINMAT app may now be placed equidistant from the attacker and defender at one side of the play area.
 
 The following is an ASCII representation of the play area at the conclusion of setup:
 
@@ -120,6 +118,8 @@ The third action is only available to the attacker, except with the use of the b
 #### Initiate combat in a lane.
 For a description of combat, see [Combat](#combat)
 
+An attacker cannot initiate combat with an empty stack
+
 ### Drawing A Card
 The defender can draw cards from any of the six lane decks.
 
@@ -145,9 +145,9 @@ When combat is initiated in a lane, the cards in both attacker and defender stac
 
 - The number cards present in the stacks should have their sum calculated. Any present WILD modifiers should be resolved now.
 
-- If the damage value of both stacks is 0-0, combat resolves as a bounce. 
-
 If the sum is not now a power of two, the stack has attack power zero. Otherwise, its attack power is the power of two to which the sum is equivalent.
+
+- If the damage value of both stacks is 0-0, combat resolves as a bounce. 
 
 If the attacker stack has a lower attack power, then the attacker stack goes to the lane's discard pile and the defender stack remains in its lane, face up.
 
