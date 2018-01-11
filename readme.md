@@ -144,9 +144,12 @@ If the attacker stack has a lower attack power, then the attacker stack goes to 
 If the attacker stack has an attack power equal to or greater than the defender stack, then the following takes place:
 
 If a BREAK modifier was not played by the attacker this turn:
-\	Calculate the absolute difference between attack powers, and then add one to it. This is the damage value.
+
+		Calculate the absolute difference between attack powers, and then add one to it. This is the damage value.
+
 If a BREAK modifier was played by the attacker this turn:
-\	The damage value is the attack power of the attacker deck.
+
+		The damage value is the attack power of the attacker deck.
 
 While the damage value is greater than zero:
 	If there are cards left in the defender's stack, send the most recently played card there to the attacker discard pile.
