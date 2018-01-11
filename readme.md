@@ -205,7 +205,9 @@ The attacker stack is now sent to the attacker discard.
 
 - A BREAK cannot be played on a stack which already contains a BREAK.
 
-- Breaks under no circumstances activate on reveal
+- BREAKs under no circumstances activate on reveal (sean)
+
+- In the event that BREAK triggers a trap, the trap will consume the BREAK
 
 ## Win Conditions
 - The game is won by the defender if all 110 turns have elapsed without the attacker achieving victory.
