@@ -190,7 +190,7 @@ The attacker stack is now sent to the attacker discard.
 
 ### \? - BOUNCE
 
-- **Primary effect**: When involved in combat, the attacker stack goes to the attacker discard pile, all defender cards remain in lane. All damage is 0. The BOUNCE goes to the opposite discard pile
+- **Primary effect**: When involved in combat, the attacker stack goes to the attacker discard pile, all defender cards remain in lane. All damage is 0. The BOUNCE goes to the opposite discard pile - an attacker bounce goes to lane discard, a defender's bounce goes to attacker discard
 
 - BOUNCE cards are played to your stack like a regular card
 
