@@ -49,13 +49,11 @@ These cards are known as 'modifiers'.
 
 ## Game Setup
 
-One player is attacker, one is defender
+One player is attacker, one is defender. These never change over the course of a game
 
-6 parallel lanes between attacker and defender, completely independent
+6 parallel lanes are set up between attacker and defender. These are completely independent of one another
 
-
-Deal thirteen face up cards in a deck at the defender's end of the right three lanes.
-Deal thirteen face down cards in a deck at the defender's end of the left three lanes.
+Where the lane decks go in the below diagram, deal thirteen face down cards in each lane stack, then flip the right 3 stacks face up
 
 These decks are referred to as 'lane decks'.
 
@@ -146,6 +144,8 @@ When combat is initiated in a lane, the cards in both attacker and defender stac
 - If a BOUNCE modifier is present, resolve its effect now.
 
 - The number cards present in the stacks should have their sum calculated. Any present WILD modifiers should be resolved now.
+
+- If the damage value of both stacks is 0-0, combat resolves as a bounce. 
 
 If the sum is not now a power of two, the stack has attack power zero. Otherwise, its attack power is the power of two to which the sum is equivalent.
 
