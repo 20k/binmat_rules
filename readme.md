@@ -113,7 +113,7 @@ For a description of how to draw cards, see [Drawing A Card](#drawing-a-card)
 #### Both - Play a card from your hand to a lane's stack.
 A card from your hand can be played into your 'stack' - in front of the lane deck for defenders, at your end of the lane for attackers. If an existing face-up stack is present here, cards played to it must also be face-up. The only modifier that can be played face up on a face-down stack is break
 
-All face-up stacks can be inspected by any player at any time. You are also allowed to inspect your own face down cards. You cannot inspect discard piles
+All face-up stacks can be inspected by any player at any time. You are also allowed to inspect your own face down cards. You can inspect any discard pile
 
 Defenders must play cards face down on an empty stack
 
