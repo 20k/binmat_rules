@@ -168,46 +168,78 @@ The attacker stack is now sent to the attacker discard.
 ### Modifiers
 
 \@ - TRAP
-- The TRAP modifier is played to your stack like a normal card.
+#### Primary effect
+##### If a TRAP goes from face down to face up, the most recently played card on the opposite stack goes to the friendly discard pile (attacker discard if attacker, lane discard if defender)
 
-- When it is revealed (face-down to face-up) during combat, the most recently played card in the opposing stack is sent to the appropriate discard pile - defender TRAPs send cards to the lane discard pile, attacker TRAPs to the attacker discard pile.
+- TRAP cards are played to your stack like a regular card
 
-- If both stacks in combat reveal a TRAP, then the TRAP of the player who initiated combat is resolved first.
+- If a TRAP is placed face up on a face up stack, it does nothing. It absorbs damage like a regular card
+
+- If a TRAP goes from face down to face up, its primary effect is triggered
+
+- When a TRAP is involved in combat, it has no special effect. Its effect triggers on face down to face up
+
+- After a TRAP is revealed or used in combat, it acts as a normal card and is not removed (unless destroyed as per normal card rules)
+
+- A TRAP acts before BOUNCE, and before BREAKS. It cannot cancel the combat initiation of a break, but it will cancel the damage modification
+
+- In the event that both stacks reveal a TRAP, the player who initiated combat's TRAP activates first
 
 \? - BOUNCE
-- The BOUNCE modifier can be played face-down or face-up. (normal placing rules apply)
 
-- If a BOUNCE card is played face up on a face up stack as a defender, nothing happens immediately, but bounce applies after the attacker attacks (or break is applied as the defender). A bounce card cannot be played face up on a face down stack. A bounce card only initiates combat if it is played face up by an attacker on an empty stack
+#### Primary effect
+##### When involved in combat, all attackers cards in the lane go to the attacker discard pile, all defender cards remain in lane. All damage is 0. The BOUNCE goes to the opposite discard pile
 
-- When a BOUNCE is involved in combat, it occurs after TRAP cards. All damage is 0, and additionally:
+- BOUNCE cards are played to your stack like a regular card
 
-- - The attacker stack is sent to the attacker discard pile.
+- If a BOUNCE is played face up on a face up stack, it has no immediate effect. It triggers as normal if attacked by the attacker
 
-- - The defender stack remains in its lane.
+- If a BOUNCE goes from face down to face up, it has no special effect
 
-- - BOUNCE cards played are then sent to the opposite discard pile. (lane discard pile if attacker's, attacker discard pile if defender's). If the attacker and defender each have a bounce card, they go to each others discard piles
+- When a BOUNCE is involved in combat, its primary effect is triggered
+
+- After a BOUNCE is used in combat, it goes to the opposite discard pile
+
+- A BOUNCE acts after TRAPS and BREAKS
+
+- In the event that both stacks reveal a BOUNCE, each BOUNCE goes to the opposite discard pile
+
+- A BOUNCE card can only initiate combat if it is played as a face up card on an empty stack as attacker. There are no other circumstances where it can initiate combat
 
 \* - WILD
-- The WILD modifier is played to your stack like a normal card.
+#### Primary effect
+##### WILD cards bring the sum of the stack up to the next highest power of two. 7 goes to 8, or 8 goes to 16. Multiple WILDs stack
+- WILD cards are played to your stack like a normal card.
 
-- During combat resolution, it brings the sum of its stack up to the next highest power of two.
+- WILD cards are active at all times
+
+- When a WILD is involved in combat, it brings the sum of its stack up to the next highest power of two
 
 - If it is the only card in a stack, its value is 2 for the purposes of sum evaluation.
 
 - Multiple WILD cards keep increasing the power of two level
 
+- A WILD affects only damage calculation and can be affected by a TRAP
+
 \> - BREAK
-- The BREAK modifier can be played face up or face down on a stack, but cannot be played on an empty stack. If a face down break is revealed by the other player, it servers as ‘trap fodder’. If an attacker initiates an attack with a break face down, the break applies
+#### Primary effect
+##### BREAK cards initate combat for attackers and defenders. After this, its secondary effect is invoked
 
-- When the defender plays a BREAK, this modifier initiates standard combat in that lane.
+#### Secondary effect
+##### If the attacker stack contains a BREAK, combat rules are modified. This does not occur if the attacker's BREAK is removed by a TRAP
 
-- When the attacker plays a BREAK, the modifier initiates combat in its lane with modified combat resolution rules, as described in section 4c.
+##### - COMBAT MODIFICATION
+##### - BREAK damage rules trigger if the attacker has a surviving BREAK card in their stack, the damage value of the stack is the damage of the attacker stack, not the net + 1. As a defender, combat resolves normally
 
-- A BREAK cannot be played on a stack which already contains a BREAK.
+- BREAK cards are the only card that can be played face up on a face down stack. They can be additionally played face down on a face down stack. They cannot be played on an empty stack. A stack cannot contain two BREAKs, and you cannot play a BREAK on a stack that has a BREAK card in it
 
-- BREAKs under no circumstances activate on reveal (sean)
+- If a BREAK is played face up on a face up or down stack, its primary effect triggers
 
-- In the event that BREAK triggers a trap, the trap will consume the BREAK
+- If a BREAK goes from face down to face up, it has no immediate special effect
+
+- When a BREAK is involved in combat in the attacker's stack, its secondary effect is applied
+
+- A BREAKs combat initiation applies immediately when played face up and acts before any other cards. Its secondary effect occurs after TRAP cards
 
 ## Win Conditions
 - The game is won by the defender if all 110 turns have elapsed without the attacker achieving victory.
