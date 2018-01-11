@@ -113,6 +113,8 @@ A card from your hand can be played into your 'stack' - in front of the lane dec
 
 All face-up stacks can be inspected by any player at any time. You are also allowed to inspect your own face down cards
 
+Defenders must play cards face down on an empty stack
+
 The third action is only available to the attacker, except with the use of the break modifier
 
 #### Initiate combat in a lane.
