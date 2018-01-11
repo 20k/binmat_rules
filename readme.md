@@ -31,7 +31,7 @@ Thx Alic
 
 \# - CHOICE
 
-Cards in a suit go from 2-10, as well as:
+Cards in a suit go from 2-10, as well as the special cards:
 
 \@ - TRAP
 
@@ -88,7 +88,7 @@ BINMAT app  |    |    | DEF | DEF | DEF | DEF | DEF | DEF | - position of potent
                                 defender sat here
 ```
 
-Not shown are the position of the attacker's discard pile, and 
+Not shown are the position of the attacker's discard pile, and the attackers deck
 
 ## Game Structure
 
@@ -120,12 +120,15 @@ For a description of combat, see [Combat](#combat)
 
 ### Drawing A Card
 The defender can draw cards from any of the six lane decks.
+
 The attacker can draw from only lane decks without a defender stack in front of them.
+
 The attacker can also draw from a special 'attacker deck' which is at the side of the play area, in front of the attacker discard pile.
 
-When a draw is attempted from an empty deck, the following ta##kes place:
-The deck's corresponding discard pile is shuffled into the deck.
-The draw can then take place as normal.
+When a draw is attempted from an empty deck, the following takes place:
+
+- The deck's corresponding discard pile is shuffled into the deck.
+- The draw can then take place as normal.
 
 Any deck which has its discard pile shuffled into it is to be placed face down.
 This includes lane decks which were previously face up.
@@ -162,30 +165,44 @@ The attacker stack is now sent to the attacker discard.
 ### Modifiers
 
 \@ - TRAP
-The TRAP modifier is played to your stack like a normal card.
-When it is revealed (face-down to face-up) during combat, the most recently played card in the opposing stack is sent to the appropriate discard pile - defender TRAPs send cards to the lane discard pile, attacker TRAPs to the attacker discard pile.
-If both stacks in combat reveal a TRAP, then the TRAP of the player who initiated combat is resolved first.
+- The TRAP modifier is played to your stack like a normal card.
+
+- When it is revealed (face-down to face-up) during combat, the most recently played card in the opposing stack is sent to the appropriate discard pile - defender TRAPs send cards to the lane discard pile, attacker TRAPs to the attacker discard pile.
+
+- If both stacks in combat reveal a TRAP, then the TRAP of the player who initiated combat is resolved first.
 
 \? - BOUNCE
-The BOUNCE modifier can be played face-down or face-up. (normal placing rules apply)
-If a bounce card is played face up on a face up stack as a defender, nothing happens immediately, but bounce applies after the attacker attacks (or break is applied as the defender). A bounce card cannot be played face up on a face down stack. A bounce card only initiates combat if it is played face up by an attacker on an empty stack
-When a bounce is involved in combat, it happens after any trap card. All damage is 0, and additionally:
-The attacker stack is sent to the attacker discard pile.
-The defender stack remains in its lane.
+- The BOUNCE modifier can be played face-down or face-up. (normal placing rules apply)
+
+- If a bounce card is played face up on a face up stack as a defender, nothing happens immediately, but bounce applies after the attacker attacks (or break is applied as the defender). A bounce card cannot be played face up on a face down stack. A bounce card only initiates combat if it is played face up by an attacker on an empty stack
+
+- When a bounce is involved in combat, it occurs after any trap card. All damage is 0, and additionally:
+
+- The attacker stack is sent to the attacker discard pile.
+
+- The defender stack remains in its lane.
+
 BOUNCE cards played are then sent to the opposite discard pile. (lane discard pile if attacker's, attacker discard pile if defender's). If the attacker and defender each have a bounce card, they go to each others discard piles
 
 \* - WILD
-The WILD modifier is played to your stack like a normal card.
-During combat resolution, it brings the sum of its stack up to the next highest power of two.
-If it is the only card in a stack, its value is 2 for the purposes of sum evaluation.
-Multiple WILD cards keep increasing the power of two level
+- The WILD modifier is played to your stack like a normal card.
+
+- During combat resolution, it brings the sum of its stack up to the next highest power of two.
+
+- If it is the only card in a stack, its value is 2 for the purposes of sum evaluation.
+
+- Multiple WILD cards keep increasing the power of two level
 
 \> - BREAK
-The BREAK modifier can be played face up or face down on a stack, but cannot be played on an empty stack. If a face down break is revealed by the other player, it servers as ‘trap fodder’. If an attacker initiates an attack with a break face down, the break applies
-When the defender plays a BREAK, this modifier initiates standard combat in that lane.
-When the attacker plays a BREAK, the modifier initiates combat in its lane with modified
-combat resolution rules, as described in section 4c.
-A BREAK cannot be played on a stack which already contains a BREAK.
+- The BREAK modifier can be played face up or face down on a stack, but cannot be played on an empty stack. If a face down break is revealed by the other player, it servers as ‘trap fodder’. If an attacker initiates an attack with a break face down, the break applies
+
+- When the defender plays a BREAK, this modifier initiates standard combat in that lane.
+
+- When the attacker plays a BREAK, the modifier initiates combat in its lane with modified combat resolution rules, as described in section 4c.
+
+- A BREAK cannot be played on a stack which already contains a BREAK.
+
+- Breaks under no circumstances activate on reveal
 
 ## Win Conditions
 - The game is won by the defender if all 110 turns have elapsed without the attacker achieving victory.
