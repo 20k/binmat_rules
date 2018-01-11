@@ -59,6 +59,8 @@ These are altogether the lane decks. You are not allowed to inspect the face up 
 
 Enough space for another deck should be left behind (defender's perspective) the decks in each lane, as this is the location of the 'lane discard pile'.
 
+All discard piles are face up and can be inspected freely
+
 
 The attacker conceptually has two unique spaces, the ‘attacker deck’ and the ‘attacker discard pile’. Attempting to draw from an empty attacker deck shuffles in the attacker discard pile
 
