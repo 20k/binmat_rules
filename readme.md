@@ -122,7 +122,7 @@ For a description of combat, see [Combat](#combat)
 
 An attacker cannot initiate combat with an empty stack
 
-#### Defender only - Discard card one card to the discard pile in a lane as an action
+#### Defender only - Discard card one card to the discard pile in a lane
 
 ### Drawing A Card
 - The defender can draw cards from any of the six lane decks.
