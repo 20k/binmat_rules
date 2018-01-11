@@ -13,6 +13,10 @@ Thx Alic
 - - [Drawing A Card](#drawing-a-card)
 - - [Combat](#combat)
 - - [Modifiers](#modifiers)
+- - - [TRAP](#---trap)
+- - - [BOUNCE](#---bounce)
+- - - [WILD](#---wild)
+- - - [BREAK](#---break)
 - [Win Conditions](#win-conditions)
 
 ## The Binmat Deck
