@@ -179,7 +179,7 @@ The attacker stack is now sent to the attacker discard.
 
 - If a BOUNCE card is played face up on a face up stack as a defender, nothing happens immediately, but bounce applies after the attacker attacks (or break is applied as the defender). A bounce card cannot be played face up on a face down stack. A bounce card only initiates combat if it is played face up by an attacker on an empty stack
 
-- When a BOUNCE is involved in combat, it occurs after any trap card. All damage is 0, and additionally:
+- When a BOUNCE is involved in combat, it occurs after TRAP cards. All damage is 0, and additionally:
 
 - - The attacker stack is sent to the attacker discard pile.
 
