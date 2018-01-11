@@ -20,17 +20,25 @@ Thx Alic
 6 suits, 78 cards, 13 cards per suit, one deck for the whole game. Not two decks
 
 \& - FORM
+
 \% - KIN
+
 \+ - DATA
+
 \! - CHAOS
+
 \^ - VOID
+
 \# - CHOICE
 
 Cards in a suit go from 2-10, as well as:
 
 \@ - TRAP
+
 \* - WILD
+
 \? - BOUNCE
+
 \> - BREAK
 
 These cards are known as 'modifiers'.
@@ -55,7 +63,7 @@ The attacker conceptually has two unique spaces, the ‘attacker deck’ and the
 If the competitive rules are being followed, the BINMAT app (explained in section 3) may now be placed equidistant from the attacker and defender at one side of the play area.
 
 The following is an ASCII representation of the play area at the conclusion of setup:
-
+```
                                 attacker sat here
 
                       |     |     |     |     |     |     |
@@ -77,7 +85,8 @@ BINMAT app  |    |    |     |     |     |     |     |     | - position of defend
                       |     |     |     |     |     |     |
 
                                 defender sat here
-						
+```
+
 ## Game Structure
 
 The game is composed of 110 turns (55 for the attacker, 55 for the defender).
