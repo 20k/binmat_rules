@@ -19,19 +19,19 @@ Thx Alic
 
 6 suits, 78 cards, 13 cards per suit, one deck for the whole game. Not two decks
 
-& - FORM
-% - KIN
-+ - DATA
-! - CHAOS
-^ - VOID
-# - CHOICE
+\& - FORM
+\% - KIN
+\+ - DATA
+\! - CHAOS
+\^ - VOID
+\# - CHOICE
 
 Cards in a suit go from 2-10, as well as:
 
-@ - TRAP
-* - WILD
-? - BOUNCE
-> - BREAK
+\@ - TRAP
+\* - WILD
+\? - BOUNCE
+\> - BREAK
 
 These cards are known as 'modifiers'.
 
@@ -146,12 +146,12 @@ The attacker stack is now sent to the attacker discard.
 
 ### Modifiers
 
-@ - TRAP
+\@ - TRAP
 The TRAP modifier is played to your stack like a normal card.
 When it is revealed (face-down to face-up) during combat, the most recently played card in the opposing stack is sent to the appropriate discard pile - defender TRAPs send cards to the lane discard pile, attacker TRAPs to the attacker discard pile.
 If both stacks in combat reveal a TRAP, then the TRAP of the player who initiated combat is resolved first.
 
-? - BOUNCE
+\? - BOUNCE
 The BOUNCE modifier can be played face-down or face-up. (normal placing rules apply)
 If a bounce card is played face up on a face up stack as a defender, nothing happens immediately, but bounce applies after the attacker attacks (or break is applied as the defender). A bounce card cannot be played face up on a face down stack. A bounce card only initiates combat if it is played face up by an attacker on an empty stack
 When a bounce is involved in combat, it happens after any trap card. All damage is 0, and additionally:
@@ -159,13 +159,13 @@ The attacker stack is sent to the attacker discard pile.
 The defender stack remains in its lane.
 BOUNCE cards played are then sent to the opposite discard pile. (lane discard pile if attacker's, attacker discard pile if defender's). If the attacker and defender each have a bounce card, they go to each others discard piles
 
-* - WILD
+\* - WILD
 The WILD modifier is played to your stack like a normal card.
 During combat resolution, it brings the sum of its stack up to the next highest power of two.
 If it is the only card in a stack, its value is 2 for the purposes of sum evaluation.
 Multiple WILD cards keep increasing the power of two level
 
-> - BREAK
+\> - BREAK
 The BREAK modifier can be played face up or face down on a stack, but cannot be played on an empty stack. If a face down break is revealed by the other player, it servers as ‘trap fodder’. If an attacker initiates an attack with a break face down, the break applies
 When the defender plays a BREAK, this modifier initiates standard combat in that lane.
 When the attacker plays a BREAK, the modifier initiates combat in its lane with modified
