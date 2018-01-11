@@ -240,6 +240,6 @@ The attacker stack is now sent to the attacker discard.
 
 ## Win Conditions
 - The game is won by the defender if all 110 turns have elapsed without the attacker achieving victory.
-- The game can also be won by the defender if the attacker is unable to draw any cards from the lane decks, and has no cards in the attacker deck and in their hand.
-- The game is won by the attacker if they deal more damage to a lane deck than the lane deck has cards. This is mentioned in combat resolution (see 4a.iii)
+- The game can also be won by the defender if the attacker is unable to draw any cards from the lane decks, and has no cards in the attacker deck and in their hand, and attempts to draw. This condition is apparently made up
+- The game is won by the attacker if they deal more damage to a lane deck than the lane deck has cards
 - The game is won by the attacker if a card is drawn from an empty lane deck with 0 cards, and there are also 0 cards in the lane’s discard pile
