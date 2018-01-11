@@ -145,17 +145,17 @@ If the attacker stack has an attack power equal to or greater than the defender 
 
 If a BREAK modifier was not played by the attacker this turn:
 
-	* Calculate the absolute difference between attack powers, and then add one to it. This is the damage value.
+Calculate the absolute difference between attack powers, and then add one to it. This is the damage value.
 
 If a BREAK modifier was played by the attacker this turn:
 
-	* The damage value is the attack power of the attacker deck.
+The damage value is the attack power of the attacker deck.
 
 While the damage value is greater than zero:
-	If there are cards left in the defender's stack, send the most recently played card there to the attacker discard pile.
-	Else if there are not, but there are cards remaining in the lane's lane deck, send the top card from the lane deck to the attacker's hand.
-	Else if there are no cards remaining in the lane deck either, the attacker has won the game. (section 5)
-	Subtract one from the damage value.
+- If there are cards left in the defender's stack, send the most recently played card there to the attacker discard pile.
+- Else if there are not, but there are cards remaining in the lane's lane deck, send the top card from the lane deck to the attacker's hand.
+- Else if there are no cards remaining in the lane deck either, the attacker has won the game. ([Win Conditions](#win-conditions))
+- Subtract one from the damage value.
  
 The attacker stack is now sent to the attacker discard.
 
