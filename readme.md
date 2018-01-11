@@ -177,15 +177,15 @@ The attacker stack is now sent to the attacker discard.
 \? - BOUNCE
 - The BOUNCE modifier can be played face-down or face-up. (normal placing rules apply)
 
-- If a bounce card is played face up on a face up stack as a defender, nothing happens immediately, but bounce applies after the attacker attacks (or break is applied as the defender). A bounce card cannot be played face up on a face down stack. A bounce card only initiates combat if it is played face up by an attacker on an empty stack
+- If a BOUNCE card is played face up on a face up stack as a defender, nothing happens immediately, but bounce applies after the attacker attacks (or break is applied as the defender). A bounce card cannot be played face up on a face down stack. A bounce card only initiates combat if it is played face up by an attacker on an empty stack
 
-- When a bounce is involved in combat, it occurs after any trap card. All damage is 0, and additionally:
+- When a BOUNCE is involved in combat, it occurs after any trap card. All damage is 0, and additionally:
 
-- The attacker stack is sent to the attacker discard pile.
+- - The attacker stack is sent to the attacker discard pile.
 
-- The defender stack remains in its lane.
+- - The defender stack remains in its lane.
 
-BOUNCE cards played are then sent to the opposite discard pile. (lane discard pile if attacker's, attacker discard pile if defender's). If the attacker and defender each have a bounce card, they go to each others discard piles
+- - BOUNCE cards played are then sent to the opposite discard pile. (lane discard pile if attacker's, attacker discard pile if defender's). If the attacker and defender each have a bounce card, they go to each others discard piles
 
 \* - WILD
 - The WILD modifier is played to your stack like a normal card.
