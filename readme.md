@@ -13,6 +13,7 @@ Thx Alic
 - - [Drawing A Card](#drawing-a-card)
 - - [Combat](#combat)
 - - [Modifiers](#modifiers)
+- - - [\@ - TRAP](#\@---TRAP)
 - [Win Conditions](#win-conditions)
 
 ## The Binmat Deck
@@ -188,7 +189,7 @@ The attacker stack is now sent to the attacker discard.
 ### \? - BOUNCE
 
 #### Primary effect:
-##### When involved in combat, all attackers cards in the lane go to the attacker discard pile, all defender cards remain in lane. All damage is 0. The BOUNCE goes to the opposite discard pile
+##### When involved in combat, the attacker stack goes to the attacker discard pile, all defender cards remain in lane. All damage is 0. The BOUNCE goes to the opposite discard pile
 
 - BOUNCE cards are played to your stack like a regular card
 
