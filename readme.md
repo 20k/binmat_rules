@@ -53,7 +53,9 @@ One player is attacker, one is defender. These never change over the course of a
 
 6 parallel lanes are set up between attacker and defender. These are completely independent of one another
 
-Where the lane decks go in the below diagram, deal thirteen face down cards in each space, then flip the right 3 decks face up. These are the lane decks. You are not allowed to inspect the face up lane decks
+Where the lane decks go in the below diagram, deal thirteen face down cards in each space, then flip the top card on the 3 right hand decks face up. These 3 decks are the face up decks and always have the top card face up, even if they become empty and discard piles are shuffled in
+
+These are altogether the lane decks. You are not allowed to inspect the face up lane decks
 
 Enough space for another deck should be left behind (defender's perspective) the decks in each lane, as this is the location of the 'lane discard pile'.
 
@@ -103,24 +105,24 @@ The defender always takes the first turn.
 
 ### Taking A Turn
 
-On each of their turns, a player may perform one action or pass. The following actions are available to both attacker and defender:
+On each of their turns, a player may perform one action or pass. The following actions are available either both players, the attacker, or the defender
 
-#### Draw a card from a deck.
+#### Both - Draw a card from a deck.
 For a description of how to draw cards, see [Drawing A Card](#drawing-a-card)
 
-#### Play a card from your hand to a lane's stack.
+#### Both - Play a card from your hand to a lane's stack.
 A card from your hand can be played into your 'stack' - in front of the lane deck for defenders, at your end of the lane for attackers. If an existing face-up stack is present here, cards played to it must also be face-up. The only modifier that can be played face up on a face-down stack is break
 
 All face-up stacks can be inspected by any player at any time. You are also allowed to inspect your own face down cards. You cannot inspect discard piles
 
 Defenders must play cards face down on an empty stack
 
-The third action is only available to the attacker, except with the use of the break modifier
-
-#### Initiate combat in a lane.
+#### Attacker only - Initiate combat in a lane.
 For a description of combat, see [Combat](#combat)
 
 An attacker cannot initiate combat with an empty stack
+
+#### Defender only - Discard card one card to their discard pile in a lane as an action
 
 ### Drawing A Card
 - The defender can draw cards from any of the six lane decks.
@@ -134,8 +136,7 @@ When a draw is attempted from an empty deck, the following takes place:
 - The deck's corresponding discard pile is shuffled into the deck.
 - The draw then immediately takes place as normal.
 
-Any deck which has its discard pile shuffled into it is to be placed face down.
-This includes lane decks which were previously face up.
+Any deck which has its discard pile shuffled into it is to be placed face down, except the face up lane decks which still have their top card remain face up
 
 ### Combat
 
