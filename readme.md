@@ -13,7 +13,7 @@ Thx Alic
 - - [Drawing A Card](#drawing-a-card)
 - - [Combat](#combat)
 - - [Modifiers](#modifiers)
-- - - [\@ - TRAP](#\@---TRAP)
+- - - [\@ - TRAP](#\@-\--trap)
 - [Win Conditions](#win-conditions)
 
 ## The Binmat Deck
