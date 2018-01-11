@@ -121,16 +121,16 @@ For a description of combat, see [Combat](#combat)
 An attacker cannot initiate combat with an empty stack
 
 ### Drawing A Card
-The defender can draw cards from any of the six lane decks.
+- The defender can draw cards from any of the six lane decks.
 
-The attacker can draw from only lane decks without a defender stack in front of them.
+- The attacker can draw from only lane decks without a defender stack in front of them.
 
-The attacker can also draw from a special 'attacker deck' which is at the side of the play area, in front of the attacker discard pile.
+- The attacker can also draw from a special 'attacker deck' which is at the side of the play area, in front of the attacker discard pile.
 
 When a draw is attempted from an empty deck, the following takes place:
 
 - The deck's corresponding discard pile is shuffled into the deck.
-- The draw can then take place as normal.
+- The draw then immediately takes place as normal.
 
 Any deck which has its discard pile shuffled into it is to be placed face down.
 This includes lane decks which were previously face up.
