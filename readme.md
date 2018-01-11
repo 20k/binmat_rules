@@ -218,7 +218,7 @@ The attacker stack is now sent to the attacker discard.
 
 - When a WILD is involved in combat, it brings the sum of its stack up to the next highest power of two
 
-- If it is the only card in a stack, its value is 2 for the purposes of sum evaluation.
+- If there are no number cards in a stack, the first WILD is treated as a 2 card, and all other WILDs apply as normal to this value
 
 - Multiple WILD cards keep increasing the power of two level
 
