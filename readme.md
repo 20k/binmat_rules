@@ -136,10 +136,13 @@ This includes lane decks which were previously face up.
 ### Combat
 
 When combat is initiated in a lane, the cards in both attacker and defender stacks are revealed.
-If a TRAP modifier is present, resolve its effect now.
-If a BOUNCE modifier is present, resolve its effect now.
-The number cards present in the stacks should have their sum calculated. Any present WILD modifiers should
-be resolved now.
+
+- If a TRAP modifier is present, resolve its effect now.
+
+- If a BOUNCE modifier is present, resolve its effect now.
+
+- The number cards present in the stacks should have their sum calculated. Any present WILD modifiers should be resolved now.
+
 If the sum is not now a power of two, the stack has attack power zero. Otherwise, its attack power is the power of two to which the sum is equivalent.
 
 If the attacker stack has a lower attack power, then the attacker stack goes to the lane's discard pile and the defender stack remains in its lane, face up.
@@ -148,11 +151,11 @@ If the attacker stack has an attack power equal to or greater than the defender 
 
 If a BREAK modifier was not played by the attacker this turn:
 
-Calculate the absolute difference between attack powers, and then add one to it. This is the damage value.
+- The damage value is the absolute difference between attack powers, +1
 
 If a BREAK modifier was played by the attacker this turn:
 
-The damage value is the attack power of the attacker deck.
+- The damage value is the attack power of the attacker deck.
 
 While the damage value is greater than zero:
 - If there are cards left in the defender's stack, send the most recently played card there to the attacker discard pile.
