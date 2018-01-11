@@ -226,7 +226,7 @@ The attacker stack is now sent to the attacker discard.
 
 - **Secondary effect**: If the attacker stack contains a BREAK, combat rules are modified. This does not occur if the attacker's BREAK is removed by a TRAP
 
-- Combat Modification: BREAK damage rules trigger if the attacker has a surviving BREAK card in their stack: the damage value of the stack is the damage of the attacker stack, not the net + 1. Combat resolves normally otherweise
+- **Combat Modification**: BREAK damage rules trigger if the attacker has a surviving BREAK card in their stack: the damage value of the stack is the damage of the attacker stack, not the net + 1. Combat resolves normally otherweise
 
 - BREAK cards are the only card that can be played face up on a face down stack. They can be additionally played face down on a face down stack. They cannot be played on an empty stack. A stack cannot contain two BREAKs, and you cannot play a BREAK on a stack that has a BREAK card in it
 
