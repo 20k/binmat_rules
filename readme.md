@@ -95,7 +95,7 @@ Not shown are the position of the attacker's discard pile, and the attackers dec
 ## Game Structure
 
 The game is composed of 110 turns (55 for the attacker, 55 for the defender).
-Under competitive rules, each turn is 5 seconds long, but this can be ignored
+Each turn is exactly 5 seconds long under competitive rules, but this can be ignored for casual play
 
 If competitive rules are being used, the BINMAT app (available for iOS and Android) provides an effective timer and turn counter. If not, any method of counting down from 110 to 0 can be used.
 
