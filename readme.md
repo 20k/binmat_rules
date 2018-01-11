@@ -167,8 +167,8 @@ The attacker stack is now sent to the attacker discard.
 
 ### Modifiers
 
-\@ - TRAP
-#### Primary effect
+### \@ - TRAP
+#### Primary effect:
 ##### If a TRAP goes from face down to face up, the most recently played card on the opposite stack goes to the friendly discard pile (attacker discard if attacker, lane discard if defender)
 
 - TRAP cards are played to your stack like a regular card
@@ -185,9 +185,9 @@ The attacker stack is now sent to the attacker discard.
 
 - In the event that both stacks reveal a TRAP, the player who initiated combat's TRAP activates first
 
-\? - BOUNCE
+### \? - BOUNCE
 
-#### Primary effect
+#### Primary effect:
 ##### When involved in combat, all attackers cards in the lane go to the attacker discard pile, all defender cards remain in lane. All damage is 0. The BOUNCE goes to the opposite discard pile
 
 - BOUNCE cards are played to your stack like a regular card
@@ -206,9 +206,10 @@ The attacker stack is now sent to the attacker discard.
 
 - A BOUNCE card can only initiate combat if it is played as a face up card on an empty stack as attacker. There are no other circumstances where it can initiate combat
 
-\* - WILD
-#### Primary effect
-##### WILD cards bring the sum of the stack up to the next highest power of two. 7 goes to 8, or 8 goes to 16. Multiple WILDs stack
+### \* - WILD
+#### Primary effect:
+#### WILD cards bring the sum of the stack up to the next highest power of two. 7 goes to 8, or 8 goes to 16. Multiple WILDs stack
+
 - WILD cards are played to your stack like a normal card.
 
 - WILD cards are active at all times
@@ -221,15 +222,15 @@ The attacker stack is now sent to the attacker discard.
 
 - A WILD affects only damage calculation and can be affected by a TRAP
 
-\> - BREAK
-#### Primary effect
-##### BREAK cards initate combat for attackers and defenders. After this, its secondary effect is invoked
+### \> - BREAK
+#### Primary effect:
+#### BREAK cards initate combat for attackers and defenders. After this, its secondary effect is invoked
 
-#### Secondary effect
-##### If the attacker stack contains a BREAK, combat rules are modified. This does not occur if the attacker's BREAK is removed by a TRAP
+#### Secondary effect:
+#### If the attacker stack contains a BREAK, combat rules are modified. This does not occur if the attacker's BREAK is removed by a TRAP
 
-##### - COMBAT MODIFICATION
-##### - BREAK damage rules trigger if the attacker has a surviving BREAK card in their stack, the damage value of the stack is the damage of the attacker stack, not the net + 1. As a defender, combat resolves normally
+#### Combat Modification:
+#### BREAK damage rules trigger if the attacker has a surviving BREAK card in their stack: the damage value of the stack is the damage of the attacker stack, not the net + 1. Combat resolves normally otherweise
 
 - BREAK cards are the only card that can be played face up on a face down stack. They can be additionally played face down on a face down stack. They cannot be played on an empty stack. A stack cannot contain two BREAKs, and you cannot play a BREAK on a stack that has a BREAK card in it
 
