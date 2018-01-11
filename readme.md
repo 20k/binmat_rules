@@ -63,29 +63,32 @@ The attacker conceptually has two unique spaces, the ‘attacker deck’ and the
 If the competitive rules are being followed, the BINMAT app (explained in section 3) may now be placed equidistant from the attacker and defender at one side of the play area.
 
 The following is an ASCII representation of the play area at the conclusion of setup:
+
 ```
                                 attacker sat here
-
+								
+                       _____ _____ _____ _____ _____ _____   
                       |     |     |     |     |     |     |
-                      |     |     |     |     |     |     | - position of attacker stacks
+                      | ATK | ATK | ATK | ATK | ATK | ATK | - position of potential attacker stacks
                       |     |     |     |     |     |     |
-                      |     |     |     |     |     |     |
-                      |     |     |     |     |     |     |
-            +----+    |     |     |     |     |     |     |
+            +----+    |_____|_____|_____|_____|_____|_____|
 phone with  |    |    |     |     |     |     |     |     |
-BINMAT app  |    |    |     |     |     |     |     |     | - position of defender stacks
+BINMAT app  |    |    | DEF | DEF | DEF | DEF | DEF | DEF | - position of potential defender stacks
             |    |    |     |     |     |     |     |     |
-            |    |    |     |     |     |     |     |     |
+            |    |    |_____|_____|_____|_____|_____|_____|
 (optional)  +----+    | +-+ | +-+ | +-+ | +-+ | +-+ | +-+ |
-                      | |h| | |h| | |h| | |2| | |6| | |@| | - lane decks
+                      | |h| | |h| | |h| | |2| | |6| | |@| | - lane decks, 13 cards at the start in each
                       | +-+ | +-+ | +-+ | +-+ | +-+ | +-+ |
+                      |_____|_____|_____|_____|_____|_____|
                       |     |     |     |     |     |     |
+                      |     |     |     |     |     |     | - space for potential lane discard piles
                       |     |     |     |     |     |     |
-                      |     |     |     |     |     |     | - space for lane discard piles
-                      |     |     |     |     |     |     |
-
+                      |_____|_____|_____|_____|_____|_____|  
+					   
                                 defender sat here
 ```
+
+Not shown are the position of the attacker's discard pile, and 
 
 ## Game Structure
 
@@ -103,7 +106,7 @@ The defender always takes the first turn.
 On each of their turns, a player may perform one action or pass. The following actions are available to both attacker and defender:
 
 #### Draw a card from a deck.
-For a description of how to draw cards, see section 4b.
+For a description of how to draw cards, see [Drawing A Card](#drawing-a-card)
 
 #### Play a card from your hand to a lane's stack.
 A card from your hand can be played into your 'stack' - in front of the lane deck for defenders, at your end of the lane for attackers. If an existing face-up stack is present here, cards played to it must also be face-up. The only modifier that can be played face up on a face-down stack is break
@@ -113,7 +116,7 @@ All face-up stacks can be inspected by any player at any time. You are also allo
 The third action is only available to the attacker, except with the use of the break modifier
 
 #### Initiate combat in a lane.
-For a description of combat, see section 4c.
+For a description of combat, see [Combat](#combat)
 
 ### Drawing A Card
 The defender can draw cards from any of the six lane decks.
@@ -130,19 +133,19 @@ This includes lane decks which were previously face up.
 ### Combat
 
 When combat is initiated in a lane, the cards in both attacker and defender stacks are revealed.
-If a TRAP modifier is present, resolve its effect now. (4d)
-If a BOUNCE modifier is present, resolve its effect now. (4d)
+If a TRAP modifier is present, resolve its effect now.
+If a BOUNCE modifier is present, resolve its effect now.
 The number cards present in the stacks should have their sum calculated. Any present WILD modifiers should
-be resolved now. (4d)
+be resolved now.
 If the sum is not now a power of two, the stack has attack power zero. Otherwise, its attack power is the power of two to which the sum is equivalent.
 
 If the attacker stack has a lower attack power, then the attacker stack goes to the lane's discard pile and the defender stack remains in its lane, face up.
 
 If the attacker stack has an attack power equal to or greater than the defender stack, then the following takes place:
 
-If a BREAK modifier (4d) was not played by the attacker this turn:
+If a BREAK modifier was not played by the attacker this turn:
 	Calculate the absolute difference between attack powers, and then add one to it. This is the damage value.
-If a BREAK modifier (4d) was played by the attacker this turn:
+If a BREAK modifier was played by the attacker this turn:
 	The damage value is the attack power of the attacker deck.
 
 While the damage value is greater than zero:
