@@ -207,7 +207,7 @@ The attacker stack is now sent to the attacker discard.
 
 - After a BOUNCE is used in combat, it goes to the opposite discard pile
 
-- A BOUNCE acts after TRAPS and BREAKS
+- A BOUNCE acts after TRAPS and BREAKS. A BOUNCE moves before damage is done ("bounce cards move before combat" - Sean) - if there were some way for damage to be dealt, it would not affect the BOUNCE
 
 - In the event that both stacks reveal a BOUNCE, each BOUNCE goes to the opposite discard pile
 
