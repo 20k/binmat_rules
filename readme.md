@@ -191,7 +191,7 @@ The attacker stack is now sent to the attacker discard.
 
 - A TRAP acts before BOUNCE, and before BREAKS. It cannot cancel the combat initiation of a break, but it will cancel the damage modification
 
-- In the event that both stacks reveal a TRAP, the player who initiated combat's TRAP activates first
+- In the event that both stacks reveal TRAPs, the initiator's traps all activate first, then the defending player's traps activate
 
 ### \? - BOUNCE
 
