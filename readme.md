@@ -124,6 +124,8 @@ For a description of combat, see [Combat](#combat)
 
 An attacker cannot initiate combat with an empty stack
 
+#### Attacker only - Discard one card to Attacker Discard to draw two cards from the Attacker Deck. All shuffling rules work as per normal
+
 #### Defender only - Discard card one card to the discard pile in a lane
 
 ### Drawing A Card
