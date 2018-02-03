@@ -154,7 +154,7 @@ When combat is initiated in a lane, the cards in both attacker and defender stac
 
 If the sum is not now a power of two, the stack has attack power zero. Otherwise, its attack power is the power of two to which the sum is equivalent.
 
-- If the damage value of both stacks is 0-0, combat resolves as a bounce. 
+- If the attack power of both stacks is 0, combat resolves as a bounce. 
 
 If the attacker stack has a lower attack power, then the attacker stack goes to the lane's discard pile and the defender stack remains in its lane, face up.
 
@@ -166,7 +166,7 @@ If a BREAK modifier was not played by the attacker this turn:
 
 If a BREAK modifier was played by the attacker this turn:
 
-- The damage value is the attack power of the attacker deck.
+- The damage value is the attack power of the attacker deck, or the size of the defender stack, whichever is greater.
 
 While the damage value is greater than zero:
 - If there are cards left in the defender's stack, send the most recently played card there to the attacker discard pile.
@@ -234,7 +234,7 @@ The attacker stack is now sent to the attacker discard.
 
 - **Secondary effect**: If the attacker stack contains a BREAK, combat rules are modified. This does not occur if the attacker's BREAK is removed by a TRAP
 
-- **Combat Modification**: BREAK damage rules trigger if the attacker has a surviving BREAK card in their stack: the damage value of the stack is the damage of the attacker stack, not the net + 1. Combat resolves normally otherweise
+- **Combat Modification**: BREAK damage rules trigger if the attacker has a surviving BREAK card in their stack: the damage value of the stack is the damage of the attacker stack, or the size of the defender stack, whichever is greater. Combat resolves normally otherweise
 
 - BREAK cards are the only card that can be played face up on a face down stack. They can be additionally played face down on a face down stack. They cannot be played on an empty stack. A stack cannot contain two BREAKs, and you cannot play a BREAK on a stack that has a BREAK card in it
 
