@@ -8,6 +8,7 @@ Thx Alic
 - [The Binmat Deck](#the-binmat-deck)
 - [Game Setup](#game-setup)
 - [Game Structure](#game-structure)
+- [Multiple Players](#multiple-players)
 - [Gameplay](#gameplay)
 - - [Taking A Turn](#taking-a-turn)
 - - [Drawing A Card](#drawing-a-card)
@@ -102,6 +103,16 @@ Each turn is exactly 5 seconds long under competitive rules, but this can be ign
 If competitive rules are being used, the BINMAT app (available for iOS and Android) provides an effective timer and turn counter. If not, any method of counting down from 110 to 0 can be used.
 
 The defender always takes the first turn.
+
+## Multiple Players
+
+Games are not restricted to 1v1
+
+In an XvY format, each player has their own hand. Players on the same side can see each other's hand. In the card game, players may play in any order. In the ingame version it appears players may have a defined turn order
+
+Each lane stack can only have one card drawn from it per attacker or defender turn as a whole. The attacker deck does not have this restriction
+
+The attacker turn and defender turn as a whole is still 5 seconds long
 
 ## Gameplay
 
