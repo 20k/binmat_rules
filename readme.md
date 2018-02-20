@@ -171,11 +171,11 @@ If the attacker stack has a lower attack power, then the attacker stack goes to 
 
 If the attacker stack has an attack power equal to or greater than the defender stack, then the following takes place:
 
-If a BREAK modifier was not played by the attacker this turn:
+If a BREAK modifier is not in either stack:
 
 - The damage value is the absolute difference between attack powers, +1
 
-If a BREAK modifier was played by the attacker this turn:
+If a BREAK modifier is in either stack:
 
 - The damage value is the attack power of the attacker deck, or the size of the defender stack, whichever is greater.
 
@@ -243,7 +243,7 @@ The attacker stack is now sent to the attacker discard.
 ### \> - BREAK
 - **Primary effect**: BREAK cards initate combat for attackers and defenders. After this, its secondary effect is invoked
 
-- **Secondary effect**: If the attacker stack contains a BREAK, combat rules are modified. This does not occur if the attacker's BREAK is removed by a TRAP
+- **Secondary effect**: If either stack contains a BREAK, combat rules are modified. This does not occur if all BREAK's are removed by a TRAP
 
 - **Combat Modification**: BREAK damage rules trigger if the attacker has a surviving BREAK card in their stack: the damage value of the stack is the damage of the attacker stack, or the size of the defender stack, whichever is greater. Combat resolves normally otherweise
 
