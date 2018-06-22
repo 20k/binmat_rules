@@ -114,6 +114,8 @@ Each lane stack can only have one card drawn from it per attacker or defender tu
 
 The attacker turn and defender turn as a whole is still 5 seconds long
 
+In the ingame version, all attackers take their turn, then all defenders take their turn
+
 ## Gameplay
 
 ### Taking A Turn
