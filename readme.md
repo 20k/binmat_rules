@@ -120,6 +120,13 @@ In the ingame version, all attackers take their turn, then all defenders take th
 
 Attackers and defenders can see teammates hands
 
+There is an ante to join a binmat game. You may join random binmat games, but if you are disconnected you can't join another one. If you join another binmat game, you cannot defend yourself, aka one binmat game per user only
+
+t1 8MGC
+t2 512MGC
+t3 8BGC
+t4 32BGC
+
 ## Gameplay
 
 ### Taking A Turn
