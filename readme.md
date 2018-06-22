@@ -114,10 +114,11 @@ Each lane stack can only have one card drawn from it per attacker or defender tu
 
 The attacker turn and defender turn as a whole is still 5 seconds long
 
-## The real game
+## The real game as we know it
 
-In the ingame version, all attackers take their turn, then all defenders take their turn
+In the ingame version, all attackers take their turn, then all defenders take their turn. Binmat games may last way longer than 110 turns, as they go until lock rotation - 220 is the max
 
+Attackers and defenders can see teammates hands
 
 ## Gameplay
 
