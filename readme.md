@@ -110,6 +110,8 @@ Games are not restricted to 1v1
 
 In an XvY format, each player has their own hand. Players on the same side can see each other's hand. In the card game, players may play in any order. In the ingame version it appears players may have a defined turn order. Additionally, it seems that defenders all take their actions at the same time, but they are simply *resolved* in the turn order at the end of their 5s turn
 
+First turn turn order is dependent on the order in which people join. In the ingame version there appears to be a degree of dynamicness after this
+
 Each lane stack can only have one card drawn from it per attacker or defender turn as a whole. The attacker deck does not have this restriction
 
 The attacker turn and defender turn as a whole is still 5 seconds long
