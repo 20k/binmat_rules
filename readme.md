@@ -129,6 +129,8 @@ t2 512MGC
 t3 8BGC
 t4 32BGC
 
+There is a list of available moves over here https://docs.google.com/document/d/1nkNPY1WLTI6W_E8_lJx-pjHE9pirywtTvtvYDY07i3U/edit as well as a description of the binmat bot api
+
 ## Gameplay
 
 ### Taking A Turn
